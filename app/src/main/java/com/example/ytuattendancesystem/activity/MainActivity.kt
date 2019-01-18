@@ -1,8 +1,8 @@
-package com.example.ytuattendancesystem.Activity
+package com.example.ytuattendancesystem.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.ytuattendancesystem.Fragment.LoginFragment
+import com.example.ytuattendancesystem.fragment.LoginFragment
 import com.example.ytuattendancesystem.R
 
 

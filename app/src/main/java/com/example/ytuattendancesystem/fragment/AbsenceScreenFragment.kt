@@ -1,5 +1,4 @@
-package com.example.ytuattendancesystem.Fragment
-
+package com.example.ytuattendancesystem.fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -11,9 +10,10 @@ import com.example.ytuattendancesystem.R
 import kotlinx.android.synthetic.main.fragment_absence_screen.*
 
 
-
-
 class AbsenceScreenFragment : Fragment() {
+
+
+    var title :String = ""
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -22,11 +22,16 @@ class AbsenceScreenFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_absence_screen, container, false)
     }
 
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        arguments?.getString("lessonName")?.let {
+            title = it
+        }
+    }
+
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-//        tv_title.text = arguments!!.getString("lessonName")
-        if (arguments != null) {
-            tv_title.text = arguments!!.getString("lessonName", "aa")
-        }
+        tv_title.text = title
     }
 }

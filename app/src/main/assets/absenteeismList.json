@@ -1,0 +1,1871 @@
+{
+  "result": "Success",
+  "absenteeims": [
+    {
+      "lessonName": "mekanik",
+      "students": [
+        {
+          "studentsName": "Merve Levent",
+          "StudentsNum": "13058038",
+          "weeks": [
+            {
+              "week": "1",
+              "status": true
+            },
+            {
+              "week": "2",
+              "status": true
+            },
+            {
+              "week": "3",
+              "status": false
+            },
+            {
+              "week": "4",
+              "status": true
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        },
+        {
+          "studentsName": "Betina Özçelik",
+          "StudentsNum": "14058048",
+          "weeks": [
+            {
+              "week": "1",
+              "status": true
+            },
+            {
+              "week": "2",
+              "status": false
+            },
+            {
+              "week": "3",
+              "status": false
+            },
+            {
+              "week": "4",
+              "status": true
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        },
+        {
+          "studentsName": "Anıl Taskıran",
+          "StudentsNum": "14058013",
+          "weeks": [
+            {
+              "week": "1",
+              "status": false
+            },
+            {
+              "week": "2",
+              "status": true
+            },
+            {
+              "week": "3",
+              "status": false
+            },
+            {
+              "week": "4",
+              "status": false
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        },
+        {
+          "studentsName": "İdil Belfu Öğretir",
+          "StudentsNum": "13058020",
+          "weeks": [
+            {
+              "week": "1",
+              "status": true
+            },
+            {
+              "week": "2",
+              "status": true
+            },
+            {
+              "week": "3",
+              "status": true
+            },
+            {
+              "week": "4",
+              "status": false
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        },
+        {
+          "studentsName": "Duru Öğretir",
+          "StudentsNum": "10058038",
+          "weeks": [
+            {
+              "week": "1",
+              "status": true
+            },
+            {
+              "week": "2",
+              "status": true
+            },
+            {
+              "week": "3",
+              "status": true
+            },
+            {
+              "week": "4",
+              "status": true
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        },
+        {
+          "studentsName": "Rafet Alp Toprak",
+          "StudentsNum": "13058020",
+          "weeks": [
+            {
+              "week": "1",
+              "status": true
+            },
+            {
+              "week": "2",
+              "status": true
+            },
+            {
+              "week": "3",
+              "status": true
+            },
+            {
+              "week": "4",
+              "status": true
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        },
+        {
+          "studentsName": "Melih Yalçın",
+          "StudentsNum": "15058032",
+          "weeks": [
+            {
+              "week": "1",
+              "status": true
+            },
+            {
+              "week": "2",
+              "status": true
+            },
+            {
+              "week": "3",
+              "status": false
+            },
+            {
+              "week": "4",
+              "status": false
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        },
+        {
+          "studentsName": "Ali Menekşe",
+          "StudentsNum": "13058038",
+          "weeks": [
+            {
+              "week": "1",
+              "status": false
+            },
+            {
+              "week": "2",
+              "status": false
+            },
+            {
+              "week": "3",
+              "status": false
+            },
+            {
+              "week": "4",
+              "status": false
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonName": "Yöneylem",
+      "students": [
+        {
+          "studentsName": "Merve Levent",
+          "StudentsNum": "13058038",
+          "weeks": [
+            {
+              "week": "1",
+              "status": true
+            },
+            {
+              "week": "2",
+              "status": true
+            },
+            {
+              "week": "3",
+              "status": false
+            },
+            {
+              "week": "4",
+              "status": true
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        },
+        {
+          "studentsName": "Betina Özçelik",
+          "StudentsNum": "14058048",
+          "weeks": [
+            {
+              "week": "1",
+              "status": true
+            },
+            {
+              "week": "2",
+              "status": false
+            },
+            {
+              "week": "3",
+              "status": false
+            },
+            {
+              "week": "4",
+              "status": true
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        },
+        {
+          "studentsName": "Anıl Taskıran",
+          "StudentsNum": "14058013",
+          "weeks": [
+            {
+              "week": "1",
+              "status": false
+            },
+            {
+              "week": "2",
+              "status": true
+            },
+            {
+              "week": "3",
+              "status": false
+            },
+            {
+              "week": "4",
+              "status": false
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        },
+        {
+          "studentsName": "İdil Belfu Öğretir",
+          "StudentsNum": "13058020",
+          "weeks": [
+            {
+              "week": "1",
+              "status": true
+            },
+            {
+              "week": "2",
+              "status": true
+            },
+            {
+              "week": "3",
+              "status": true
+            },
+            {
+              "week": "4",
+              "status": false
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        },
+        {
+          "studentsName": "Duru Öğretir",
+          "StudentsNum": "10058038",
+          "weeks": [
+            {
+              "week": "1",
+              "status": true
+            },
+            {
+              "week": "2",
+              "status": true
+            },
+            {
+              "week": "3",
+              "status": true
+            },
+            {
+              "week": "4",
+              "status": true
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        },
+        {
+          "studentsName": "Rafet Alp Toprak",
+          "StudentsNum": "13058020",
+          "weeks": [
+            {
+              "week": "1",
+              "status": true
+            },
+            {
+              "week": "2",
+              "status": true
+            },
+            {
+              "week": "3",
+              "status": true
+            },
+            {
+              "week": "4",
+              "status": true
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        },
+        {
+          "studentsName": "Melih Yalçın",
+          "StudentsNum": "15058032",
+          "weeks": [
+            {
+              "week": "1",
+              "status": true
+            },
+            {
+              "week": "2",
+              "status": true
+            },
+            {
+              "week": "3",
+              "status": false
+            },
+            {
+              "week": "4",
+              "status": false
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        },
+        {
+          "studentsName": "Ali Menekşe",
+          "StudentsNum": "13058038",
+          "weeks": [
+            {
+              "week": "1",
+              "status": false
+            },
+            {
+              "week": "2",
+              "status": false
+            },
+            {
+              "week": "3",
+              "status": false
+            },
+            {
+              "week": "4",
+              "status": false
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonName": "Modelleme",
+      "students": [
+        {
+          "studentsName": "Merve Levent",
+          "StudentsNum": "13058038",
+          "weeks": [
+            {
+              "week": "1",
+              "status": true
+            },
+            {
+              "week": "2",
+              "status": true
+            },
+            {
+              "week": "3",
+              "status": false
+            },
+            {
+              "week": "4",
+              "status": true
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        },
+        {
+          "studentsName": "Betina Özçelik",
+          "StudentsNum": "14058048",
+          "weeks": [
+            {
+              "week": "1",
+              "status": true
+            },
+            {
+              "week": "2",
+              "status": false
+            },
+            {
+              "week": "3",
+              "status": false
+            },
+            {
+              "week": "4",
+              "status": true
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        },
+        {
+          "studentsName": "Anıl Taskıran",
+          "StudentsNum": "14058013",
+          "weeks": [
+            {
+              "week": "1",
+              "status": false
+            },
+            {
+              "week": "2",
+              "status": true
+            },
+            {
+              "week": "3",
+              "status": false
+            },
+            {
+              "week": "4",
+              "status": false
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        },
+        {
+          "studentsName": "İdil Belfu Öğretir",
+          "StudentsNum": "13058020",
+          "weeks": [
+            {
+              "week": "1",
+              "status": true
+            },
+            {
+              "week": "2",
+              "status": true
+            },
+            {
+              "week": "3",
+              "status": true
+            },
+            {
+              "week": "4",
+              "status": false
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        },
+        {
+          "studentsName": "Duru Öğretir",
+          "StudentsNum": "10058038",
+          "weeks": [
+            {
+              "week": "1",
+              "status": true
+            },
+            {
+              "week": "2",
+              "status": true
+            },
+            {
+              "week": "3",
+              "status": true
+            },
+            {
+              "week": "4",
+              "status": true
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        },
+        {
+          "studentsName": "Rafet Alp Toprak",
+          "StudentsNum": "13058020",
+          "weeks": [
+            {
+              "week": "1",
+              "status": true
+            },
+            {
+              "week": "2",
+              "status": true
+            },
+            {
+              "week": "3",
+              "status": true
+            },
+            {
+              "week": "4",
+              "status": true
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        },
+        {
+          "studentsName": "Ali Menekşe",
+          "StudentsNum": "15058032",
+          "weeks": [
+            {
+              "week": "1",
+              "status": true
+            },
+            {
+              "week": "2",
+              "status": true
+            },
+            {
+              "week": "3",
+              "status": false
+            },
+            {
+              "week": "4",
+              "status": false
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        },
+        {
+          "studentsName": "Mustafa Bozoklu",
+          "StudentsNum": "13058038",
+          "weeks": [
+            {
+              "week": "1",
+              "status": false
+            },
+            {
+              "week": "2",
+              "status": false
+            },
+            {
+              "week": "3",
+              "status": false
+            },
+            {
+              "week": "4",
+              "status": false
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonName": "Mobil Programlama",
+      "students": [
+        {
+          "studentsName": "Merve Levent",
+          "StudentsNum": "13058038",
+          "weeks": [
+            {
+              "week": "1",
+              "status": true
+            },
+            {
+              "week": "2",
+              "status": true
+            },
+            {
+              "week": "3",
+              "status": false
+            },
+            {
+              "week": "4",
+              "status": true
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        },
+        {
+          "studentsName": "Betina Özçelik",
+          "StudentsNum": "14058048",
+          "weeks": [
+            {
+              "week": "1",
+              "status": true
+            },
+            {
+              "week": "2",
+              "status": false
+            },
+            {
+              "week": "3",
+              "status": false
+            },
+            {
+              "week": "4",
+              "status": true
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        },
+        {
+          "studentsName": "Anıl Taskıran",
+          "StudentsNum": "14058013",
+          "weeks": [
+            {
+              "week": "1",
+              "status": false
+            },
+            {
+              "week": "2",
+              "status": true
+            },
+            {
+              "week": "3",
+              "status": false
+            },
+            {
+              "week": "4",
+              "status": false
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        },
+        {
+          "studentsName": "İdil Belfu Öğretir",
+          "StudentsNum": "13058020",
+          "weeks": [
+            {
+              "week": "1",
+              "status": true
+            },
+            {
+              "week": "2",
+              "status": true
+            },
+            {
+              "week": "3",
+              "status": true
+            },
+            {
+              "week": "4",
+              "status": false
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        },
+        {
+          "studentsName": "Duru Öğretir",
+          "StudentsNum": "10058038",
+          "weeks": [
+            {
+              "week": "1",
+              "status": true
+            },
+            {
+              "week": "2",
+              "status": true
+            },
+            {
+              "week": "3",
+              "status": true
+            },
+            {
+              "week": "4",
+              "status": true
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        },
+        {
+          "studentsName": "Rafet Alp Toprak",
+          "StudentsNum": "13058020",
+          "weeks": [
+            {
+              "week": "1",
+              "status": true
+            },
+            {
+              "week": "2",
+              "status": true
+            },
+            {
+              "week": "3",
+              "status": true
+            },
+            {
+              "week": "4",
+              "status": true
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        },
+        {
+          "studentsName": "Ali Menekşe",
+          "StudentsNum": "15058032",
+          "weeks": [
+            {
+              "week": "1",
+              "status": true
+            },
+            {
+              "week": "2",
+              "status": true
+            },
+            {
+              "week": "3",
+              "status": false
+            },
+            {
+              "week": "4",
+              "status": false
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        },
+        {
+          "studentsName": "Mustafa Bozoklu",
+          "StudentsNum": "13058038",
+          "weeks": [
+            {
+              "week": "1",
+              "status": false
+            },
+            {
+              "week": "2",
+              "status": false
+            },
+            {
+              "week": "3",
+              "status": false
+            },
+            {
+              "week": "4",
+              "status": false
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonName": "Nesne Tabanlı Programlama",
+      "students": [
+        {
+          "studentsName": "Merve Levent",
+          "StudentsNum": "13058038",
+          "weeks": [
+            {
+              "week": "1",
+              "status": true
+            },
+            {
+              "week": "2",
+              "status": true
+            },
+            {
+              "week": "3",
+              "status": false
+            },
+            {
+              "week": "4",
+              "status": true
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        },
+        {
+          "studentsName": "Betina Özçelik",
+          "StudentsNum": "14058048",
+          "weeks": [
+            {
+              "week": "1",
+              "status": true
+            },
+            {
+              "week": "2",
+              "status": false
+            },
+            {
+              "week": "3",
+              "status": false
+            },
+            {
+              "week": "4",
+              "status": true
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        },
+        {
+          "studentsName": "Anıl Taskıran",
+          "StudentsNum": "14058013",
+          "weeks": [
+            {
+              "week": "1",
+              "status": false
+            },
+            {
+              "week": "2",
+              "status": true
+            },
+            {
+              "week": "3",
+              "status": false
+            },
+            {
+              "week": "4",
+              "status": false
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        },
+        {
+          "studentsName": "İdil Belfu Öğretir",
+          "StudentsNum": "13058020",
+          "weeks": [
+            {
+              "week": "1",
+              "status": true
+            },
+            {
+              "week": "2",
+              "status": true
+            },
+            {
+              "week": "3",
+              "status": true
+            },
+            {
+              "week": "4",
+              "status": false
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        },
+        {
+          "studentsName": "Duru Öğretir",
+          "StudentsNum": "10058038",
+          "weeks": [
+            {
+              "week": "1",
+              "status": true
+            },
+            {
+              "week": "2",
+              "status": true
+            },
+            {
+              "week": "3",
+              "status": true
+            },
+            {
+              "week": "4",
+              "status": true
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        },
+        {
+          "studentsName": "Rafet Alp Toprak",
+          "StudentsNum": "13058020",
+          "weeks": [
+            {
+              "week": "1",
+              "status": true
+            },
+            {
+              "week": "2",
+              "status": true
+            },
+            {
+              "week": "3",
+              "status": true
+            },
+            {
+              "week": "4",
+              "status": true
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        },
+        {
+          "studentsName": "Ali Menekşe",
+          "StudentsNum": "15058032",
+          "weeks": [
+            {
+              "week": "1",
+              "status": true
+            },
+            {
+              "week": "2",
+              "status": true
+            },
+            {
+              "week": "3",
+              "status": false
+            },
+            {
+              "week": "4",
+              "status": false
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        },
+        {
+          "studentsName": "Mustafa Bozoklu",
+          "StudentsNum": "13058038",
+          "weeks": [
+            {
+              "week": "1",
+              "status": false
+            },
+            {
+              "week": "2",
+              "status": false
+            },
+            {
+              "week": "3",
+              "status": false
+            },
+            {
+              "week": "4",
+              "status": false
+            },
+            {
+              "week": "5"
+            },
+            {
+              "week": "6"
+            },
+            {
+              "week": "7"
+            },
+            {
+              "week": "8"
+            },
+            {
+              "week": "9"
+            },
+            {
+              "week": "10"
+            },
+            {
+              "week": "11"
+            },
+            {
+              "week": "12"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
