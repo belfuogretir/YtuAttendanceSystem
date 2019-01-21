@@ -2,7 +2,7 @@
   "result": "Success",
   "absenteeims": [
     {
-      "lessonName": "mekanik",
+      "lessonName": "Olasılık",
       "students": [
         {
           "studentsName": "Merve Levent",
@@ -253,98 +253,6 @@
             {
               "week": "4",
               "status": true
-            },
-            {
-              "week": "5"
-            },
-            {
-              "week": "6"
-            },
-            {
-              "week": "7"
-            },
-            {
-              "week": "8"
-            },
-            {
-              "week": "9"
-            },
-            {
-              "week": "10"
-            },
-            {
-              "week": "11"
-            },
-            {
-              "week": "12"
-            }
-          ]
-        },
-        {
-          "studentsName": "Melih Yalçın",
-          "StudentsNum": "15058032",
-          "weeks": [
-            {
-              "week": "1",
-              "status": true
-            },
-            {
-              "week": "2",
-              "status": true
-            },
-            {
-              "week": "3",
-              "status": false
-            },
-            {
-              "week": "4",
-              "status": false
-            },
-            {
-              "week": "5"
-            },
-            {
-              "week": "6"
-            },
-            {
-              "week": "7"
-            },
-            {
-              "week": "8"
-            },
-            {
-              "week": "9"
-            },
-            {
-              "week": "10"
-            },
-            {
-              "week": "11"
-            },
-            {
-              "week": "12"
-            }
-          ]
-        },
-        {
-          "studentsName": "Ali Menekşe",
-          "StudentsNum": "13058038",
-          "weeks": [
-            {
-              "week": "1",
-              "status": false
-            },
-            {
-              "week": "2",
-              "status": false
-            },
-            {
-              "week": "3",
-              "status": false
-            },
-            {
-              "week": "4",
-              "status": false
             },
             {
               "week": "5"
@@ -1121,7 +1029,7 @@
       ]
     },
     {
-      "lessonName": "Mobil Programlama",
+      "lessonName": "Finans Matematiği",
       "students": [
         {
           "studentsName": "Merve Levent",
@@ -1494,7 +1402,7 @@
       ]
     },
     {
-      "lessonName": "Nesne Tabanlı Programlama",
+      "lessonName": "Lineer Programlam Teorisi",
       "students": [
         {
           "studentsName": "Merve Levent",

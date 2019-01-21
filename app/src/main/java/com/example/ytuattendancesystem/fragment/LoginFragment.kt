@@ -24,8 +24,12 @@ class LoginFragment : Fragment() {
 //            val password = et_password.text.toString()
 
             when (email) {
-                "s" ->  fragmentTransaction.replace(R.id.frame_layout,StudentMainFragment()).commit()
-                "t" ->  fragmentTransaction.replace(R.id.frame_layout,TeacherMainFragment()).commit()
+                "s" ->  {
+                    fragmentTransaction.replace(R.id.frame_layout,StudentMainFragment()).commit()
+                }
+                "t" ->  {
+                    fragmentTransaction.replace(R.id.frame_layout,TeacherMainFragment()).commit()
+                }
                 else -> {
                     Toast.makeText(activity, "Authentication Failed.", Toast.LENGTH_SHORT).show()
                 }

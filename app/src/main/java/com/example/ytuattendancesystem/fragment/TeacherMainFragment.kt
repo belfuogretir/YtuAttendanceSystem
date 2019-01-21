@@ -4,10 +4,12 @@ package com.example.ytuattendancesystem.fragment
 import android.annotation.SuppressLint
 import android.graphics.Color
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.FragmentManager
 
 import com.example.ytuattendancesystem.R
 import com.jakewharton.threetenabp.AndroidThreeTen
@@ -20,7 +22,7 @@ import org.threeten.bp.LocalTime
 import java.util.*
 import kotlin.math.absoluteValue
 
-class TeacherMainFragment : Fragment() {
+class TeacherMainFragment : Fragment(){
 
     private val random = Random()
 
@@ -28,16 +30,14 @@ class TeacherMainFragment : Fragment() {
     private val data: WeekData by lazy {
         WeekData().apply {
             (2..2).map {
-                this.add(createSampleEntry(it, LocalTime.of(13, 0),
-                    LocalTime.of(13, 0).plusMinutes(180),"Mekanik"))
+                this.add(createSampleEntry(it, LocalTime.of(11, 0),
+                    LocalTime.of(11, 0).plusMinutes(120),"Olasılık"))
                 this.add(createSampleEntry(3,LocalTime.of(9, 0),
                     LocalTime.of(9, 0).plusMinutes(180),"Yöneylem"))
-                this.add(createSampleEntry(4,LocalTime.of(14, 0),
-                    LocalTime.of(14, 0).plusMinutes(180),"Modelleme"))
+                this.add(createSampleEntry(3,LocalTime.of(14, 0),
+                    LocalTime.of(14, 0).plusMinutes(180),"Finans Matematiği"))
                 this.add(createSampleEntry(5,LocalTime.of(9, 0),
-                    LocalTime.of(9, 0).plusMinutes(180),"Mobil Programlama"))
-                this.add(createSampleEntry(5,LocalTime.of(13, 0),
-                    LocalTime.of(13, 0).plusMinutes(180),"Nesneye Yönelik Programlama"))
+                    LocalTime.of(9, 0).plusMinutes(180),"Lineer Programlam Teorisi"))
             }
         }
     }
@@ -58,13 +58,17 @@ class TeacherMainFragment : Fragment() {
                 val args = Bundle()
                 args.putString("lessonNameTeacher",it.event.title)
                 fragment.arguments = args
+                fragmentTransaction.addToBackStack(null)
+                fragmentManager!!.popBackStack()
                 fragmentTransaction.replace(R.id.frame_layout,fragment).commit()
             }else{
-                val fragment = AbsenceTeacherFragment()
+                val fragment2 = AbsenceTeacherFragment()
                 val args = Bundle()
                 args.putString("lessonNameAbsence",it.event.title)
-                fragment.arguments = args
-                fragmentTransaction.replace(R.id.frame_layout,fragment).commit()
+                fragment2.arguments = args
+                fragmentTransaction.addToBackStack(null)
+                fragmentManager!!.popBackStack()
+                fragmentTransaction.replace(R.id.frame_layout,fragment2).commit()
             }
         }
         registerForContextMenu(week_view_t)

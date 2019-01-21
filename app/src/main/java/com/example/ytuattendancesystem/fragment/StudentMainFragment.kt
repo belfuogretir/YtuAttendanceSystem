@@ -38,7 +38,7 @@ class StudentMainFragment : Fragment() {
                 this.add(createSampleEntry(5,LocalTime.of(9, 0),
                     LocalTime.of(9, 0).plusMinutes(180),"Mobil Programlama"))
                 this.add(createSampleEntry(5,LocalTime.of(13, 0),
-                    LocalTime.of(13, 0).plusMinutes(180),"Nesneye Yönelik Programlama"))
+                    LocalTime.of(13, 0).plusMinutes(180),"Nesne Tabanlı Programlama"))
             }
         }
     }
@@ -55,20 +55,21 @@ class StudentMainFragment : Fragment() {
         week_view_foo.addLessonsToTimetable(data)
         week_view_foo.setLessonClickListener {
             if(it.event.title.equals("Yöneylem")){
+                fragmentTransaction.addToBackStack(null)
+                fragmentManager!!.popBackStack()
                 fragmentTransaction.replace(R.id.frame_layout,ConnectionFragment()).commit()
                 }else{
                 val fragment = AbsenceScreenFragment()
                 val args = Bundle()
                 args.putString("lessonName",it.event.title)
                 fragment.arguments = args
+                fragmentTransaction.addToBackStack(null)
+                fragmentManager!!.popBackStack()
                 fragmentTransaction.replace(R.id.frame_layout,fragment).commit()
             }
         }
         registerForContextMenu(week_view_foo)
 
-        iv_student_profile.setOnClickListener {
-            fragmentTransaction.replace(R.id.frame_layout,StudentProfileFragment()).commit()
-        }
     }
 
 

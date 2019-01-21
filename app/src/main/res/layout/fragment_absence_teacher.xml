@@ -30,4 +30,14 @@
             android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp"
             android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/imageView4"/>
 
+    <ListView
+            android:layout_width="395dp"
+            android:id="@+id/absenceteacherlistview"
+            android:layout_height="513dp" android:layout_marginTop="32dp"
+            app:layout_constraintTop_toBottomOf="@+id/lessonNameTakeAttandance"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp" app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintVertical_bias="0.0"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
