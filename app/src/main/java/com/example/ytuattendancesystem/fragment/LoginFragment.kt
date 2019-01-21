@@ -21,18 +21,25 @@ class LoginFragment : Fragment() {
 
         button_login.setOnClickListener {
             val email = et_username.text.toString()
-//            val password = et_password.text.toString()
+            val password = et_password.text.toString()
 
             when (email) {
-                "s" ->  {
-                    fragmentTransaction.replace(R.id.frame_layout,StudentMainFragment()).commit()
+                "student" ->  {
+                    if(password.equals("123")){
+                        fragmentTransaction.replace(R.id.frame_layout,StudentMainFragment()).commit()
+                    }else{
+                        Toast.makeText(activity, "Kullanıcı adı veya şifre yanlış.", Toast.LENGTH_SHORT).show()
+                    }
                 }
-                "t" ->  {
-                    fragmentTransaction.replace(R.id.frame_layout,TeacherMainFragment()).commit()
+                "professor" ->  {
+                    if (password.equals("123")){
+                        fragmentTransaction.replace(R.id.frame_layout,TeacherMainFragment()).commit()
+                    }else{
+                        Toast.makeText(activity, "Kullanıcı adı veya şifre yanlış.", Toast.LENGTH_SHORT).show()
+                    }
                 }
                 else -> {
-                    Toast.makeText(activity, "Authentication Failed.", Toast.LENGTH_SHORT).show()
-                }
+                    Toast.makeText(activity, "Kullanıcı adı veya şifre yanlış.", Toast.LENGTH_SHORT).show()                }
             }
         }
     }

@@ -1,16 +1,17 @@
 package com.example.ytuattendancesystem.fragment
 
 
+import android.bluetooth.BluetoothAdapter
+import android.bluetooth.BluetoothAdapter.ACTION_DISCOVERY_STARTED
 import android.bluetooth.BluetoothDevice
-import android.content.BroadcastReceiver
-import android.content.Context
-import android.content.Intent
-import android.content.IntentFilter
+import android.content.*
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 
 import com.example.ytuattendancesystem.R
 import com.example.ytuattendancesystem.models.AbsenteeismResponse
@@ -23,14 +24,12 @@ import com.example.ytuattendancesystem.models.BluetoothDevices
 
 class TakeAttendanceFragment : Fragment() {
 
-
-    var titleTeacher =""
+    var titleTeacher = ""
     val gson = Gson()
 
     var students: MutableList<String> = mutableListOf()
-    val bluetoothDevice :MutableList<BluetoothDevices> = mutableListOf()
-    lateinit var bl : BluetoothDevices
-
+    val bluetoothDevice = mutableListOf<BluetoothDevices>()
+    val bluetoothAdapter = BluetoothAdapter.getDefaultAdapter()
 
     fun json(): String? {
         val jsonString: String?
@@ -54,9 +53,9 @@ class TakeAttendanceFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val absenteeismResponse = gson.fromJson(json(), AbsenteeismResponse::class.java)
-        for (i in absenteeismResponse.absenteeims!!.indices){
-            if(absenteeismResponse.absenteeims[i].lessonName.equals(titleTeacher)){
-                for(j in absenteeismResponse.absenteeims[i].students!!.indices){
+        for (i in absenteeismResponse.absenteeims!!.indices) {
+            if (absenteeismResponse.absenteeims[i].lessonName.equals(titleTeacher)) {
+                for (j in absenteeismResponse.absenteeims[i].students!!.indices) {
                     students.add(absenteeismResponse.absenteeims[i].students!![j].studentsName.toString())
                 }
             }
@@ -66,8 +65,6 @@ class TakeAttendanceFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val filter = IntentFilter(BluetoothDevice.ACTION_FOUND)
-        context!!.registerReceiver(mReceiver, filter)
         arguments?.getString("lessonNameTeacher")?.let {
             titleTeacher = it
         }
@@ -76,14 +73,14 @@ class TakeAttendanceFragment : Fragment() {
     private val mReceiver = object : BroadcastReceiver() {
 
         override fun onReceive(context: Context, intent: Intent) {
-            val action: String = intent.action
-            when(action) {
+            val action: String? = intent.action
+            when (action) {
                 BluetoothDevice.ACTION_FOUND -> {
                     val device: BluetoothDevice =
                         intent.getParcelableExtra(BluetoothDevice.EXTRA_DEVICE)
-                    bl.deviceName = device.name
-                    bl.deviceHardwareAddress = device.address
-                    bluetoothDevice.add(bl)
+                    if (device.name != null) {
+                        bluetoothDevice.add(BluetoothDevices(device.name, device.address))
+                    }
                 }
             }
         }
@@ -93,15 +90,23 @@ class TakeAttendanceFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         lessonName.text = titleTeacher
-        listview.adapter = TakeAttandanceAdapter(this.context,students)
+        listview.adapter = TakeAttandanceAdapter(this.context, students)
         btnStart.setOnClickListener {
-
+            val filter = IntentFilter(BluetoothDevice.ACTION_FOUND)
+            context!!.registerReceiver(mReceiver, filter)
+            if (bluetoothAdapter.isDiscovering()) {
+                bluetoothAdapter.cancelDiscovery()
+                btn_finish.isEnabled = true
+                btnStart.isEnabled = false
+            }
+            bluetoothAdapter.startDiscovery()
+        }
+        btn_finish.setOnClickListener {
+            context!!.unregisterReceiver(mReceiver)
+            btn_finish.isEnabled = false
+            btnStart.isEnabled = true
         }
     }
 
-    override fun onDestroy() {
-        super.onDestroy()
-        context!!.unregisterReceiver(mReceiver)
-    }
 
 }

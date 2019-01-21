@@ -10,7 +10,7 @@
     <application
             android:allowBackup="true"
             android:icon="@mipmap/ytuicon_round"
-            android:label="@string/app_name"
+            android:label="YTU Attendance System"
             android:roundIcon="@mipmap/ytuicon_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
