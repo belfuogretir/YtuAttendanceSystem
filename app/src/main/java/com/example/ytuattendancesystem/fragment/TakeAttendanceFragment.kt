@@ -14,6 +14,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 
 import com.example.ytuattendancesystem.R
+import com.example.ytuattendancesystem.adapter.FakeAdapter
 import com.example.ytuattendancesystem.models.AbsenteeismResponse
 import com.google.gson.Gson
 import kotlinx.android.synthetic.main.fragment_take_attendance.*
@@ -105,6 +106,7 @@ class TakeAttendanceFragment : Fragment() {
             context!!.unregisterReceiver(mReceiver)
             btn_finish.isEnabled = false
             btnStart.isEnabled = true
+            listview.adapter = FakeAdapter(this.context, students)
         }
     }
 
